@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/xenia/main/cheatersoul.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sirlemon01/LynixOld/main/FASTEDIT.lua"))()
 local venyx = library.new("LYNIX CHEAT", 5013109572)
 
 local themes = {
