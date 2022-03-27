@@ -10,15 +10,14 @@ local themes = {
    TextColor = Color3.fromRGB(255, 255, 255)
 }
 
-
 local mouse = game.Players.LocalPlayer:GetMouse()
 local BodyParts = {'LeftFoot', 'LeftHand', 'LeftLowerArm', 'LeftLowerLeg', 'LeftUpperArm', 'LeftUpperLeg', 'LowerTorso', 'RightFoot', 'RightHand', 'RightLowerArm', 'RightLowerLeg', 'RightUpperLeg', 'RightUpperArm', 'UpperTorso', 'Head'}
 local invitecode = ""
-local HAMEWARE_Chatspam = {"1"}
-local Furry_Chatspam = {'0'}
-local Swiss_Chatspam = {'1'..invitecode}
-local HvH_Chatspam = {"0'}
-local China_Chatspam = {"1"}
+local HAMEWARE_Chatspam = {"CHEATERSOUL ON TOP!", "OWNING ANY OTHER CHEAT THEN CHEATERSOUL MAKES YOU AN IDIOT LIBERAL", "CHEATERSOUL PENCE 2020", "CHEATERSOUL WINNING", "GET GOOD GET CHEATERSOUL", "discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode.." discoard.gg/"..invitecode, "CHEATERSOUL | TWO STUDS AHEAD OF THE GAME"}
+local Furry_Chatspam = {'UwU Sowwiez! Im using CHEATERSOUL and owning youwww </3', 'OwO CHEATERSOUL is tapping aww of youw fwiends :c', 'e.e you arent using CHEATERSOUL?? Dat makes meh angerye!! >:c', '>.< I am tapping eyes closed with CHEATERSOUL~', ':3 come get CHEATERSOUL! discoard.gg/'..invitecode, 'OvO CHEATERSOUL is slotted!! C:', 'UvU no challenge for CHEATERSOUL! </3'}
+local Swiss_Chatspam = {'SalÃ¼ zÃ¤mme Ig bin en schwiizer.', 'Hei u-huara dreck isch denn da imfall', 'Ier sing alli extrem schlecht i dem spiil lol', 'Wa wennd ier eigentlich, ich bin eh besser also leafet doch???', 'Han kei bock meh gege euch spiele, ier sind alli extrem schlecht', 'Boah alter in zuri hets boes fuetz!', 'Ig schwoer CHEATERSOUL isch immer ontop!', 'CHEATERSOUL isch de best script wo nid full-public isch', 'holl der doch CHEATERSOUL! discord.gg/'..invitecode}
+local HvH_Chatspam = {"HHHHHH D0g owned by CHEATERSOUL user hhh", "No CHEATERSOUL no talk dog LLLL", "hhhh imagine not owning CHEATERSOUL NN dog 2k20 CHEATERSOULless", "come 5v5 dumb dog", "Absolute dog hhhh no CHEATERSOUL no talk nn", "I'm hvh legende so shhhh", "hdf eins du hs", 'einsclick hdf hund', 'schnauze nn ich bin hvh legende', 'Hvh legend here', 'CHEATERSOUL CHEATERSOUL nr #1 cheat', 'Antiaim top of the game'}
+local China_Chatspam = {"CHEATERSOULæä½³", "CHEATERSOULä¸è¡£", "èæ¬é»å®¢è½¯ä»¶", "äºé©¬é", "æ·éè", "æåæºé»å®¢CHEATERSOUL", "å¤©å®é¨å¹¿åºæ¯åçï¼ä¸é¢æCHEATERSOUL, tianamen square", "ä¹æ²»Â·å¼æ´ä¼å¾·", "ç·äººå¥³äººç«ä¸­å½é¡¶", "å¯æçé»äºº", "æ¯ç²è´´è½¯ä»¶", "xå¼å¾", "æ°´å°ç", "é´èææ¯", "é»è²çæ´»æ æè°BLM", "femboyesæ¯åæ§æ"}
 local uion = true
 local circle = Drawing.new("Circle")
 local LP = game:GetService("Players").LocalPlayer
@@ -164,8 +163,8 @@ local section4 = AAPage:addSection("Coming Soon!")
 
 
 local Misc = venyx:addPage("Misc", 5894272440)
-local Lagmode1 = Misc:addSection("Lag Mode")
 local Movement = Misc:addSection("Coming Soon!")
+local Lagmode1 = Misc:addSection("Lag Mode")
 
 Lagmode1:addToggle("Anti Lag", nil, function(value)
     Fake = value
