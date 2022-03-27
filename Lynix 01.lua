@@ -1,5 +1,5 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sirlemon01/LynixOld/main/FASTEDIT.lua"))()
-local venyx = library.new("Beta LYNIX CHEAT - Legit", 5013109572)
+local venyx = library.new("V1.0 LYNIX CHEAT - Legit", 5013109572)
 
 local themes = {
    Background = Color3.fromRGB(24, 24, 24),
